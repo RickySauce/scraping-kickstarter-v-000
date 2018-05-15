@@ -1,5 +1,7 @@
 require 'Nokogiri'
 require 'Open-Uri'
+require_relative "../fixtures/kickstarter.html"
+
 def create_project_hash
-  # write your code here
+  doc = Nokogiri::HTML(open())
 end
